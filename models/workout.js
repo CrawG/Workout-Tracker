@@ -22,7 +22,7 @@ exercises: [
             required: "Enter a name for this workout"
         },
         duration: {
-            type: TimeRanges,
+            type: Number,
             required: "Enter a duration"
         },
         weight: {

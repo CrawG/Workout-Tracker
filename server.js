@@ -4,10 +4,10 @@ const logger = require("morgan")
 
 const PORT = process.env.PORT || 3000;
 
-const db = require("./models")
+const db = require("./models");
 const app = express();
 
-const databaseName = "workout_db"
+const databaseName = "workout_db";
 
 app.use(logger("dev"));
 
@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 });
 
 // routes
-// app.use(require("/public/api.js"));
+// app.use(require("./public/api.js"));
 app.use("/api", require("./routes/api-routes.js"));
 app.use("/", require("./routes/html-routes.js"));
 
