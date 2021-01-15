@@ -1,8 +1,8 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "workout-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Workout Tracker Homework",
+  "main": "api-routes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
