@@ -42,9 +42,9 @@ function populateChart(data) {
     'Saturday',
   ];
 
-  const labels = data.map(({ day }) => {
-    const date = new Date(day);
-    return daysOfWeek[date.getDay()];
+  const labels = data.map(({ date }) => {
+    const weekDay = new Date(date);
+    return daysOfWeek[weekDay.getDay()];
   });
 
   let lineChart = new Chart(line, {

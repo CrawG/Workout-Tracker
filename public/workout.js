@@ -7,7 +7,7 @@ async function initWorkout() {
       .setAttribute("href", `/exercise?id=${lastWorkout._id}`);
 
     const workoutSummary = {
-      date: formatDate(lastWorkout.day),
+      date: formatDate(lastWorkout.date),
       totalDuration: lastWorkout.totalDuration,
       numExercises: lastWorkout.exercises.length,
       ...tallyExercises(lastWorkout.exercises)
@@ -30,6 +30,7 @@ function tallyExercises(exercises) {
     }
     return acc;
   }, {});
+      // console.log("🚀 ~ file: workout.js ~ line 33 ~ tallied ~ totalDistance", totalDistance)
   return tallied;
 }
 

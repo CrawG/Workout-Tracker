@@ -41,12 +41,15 @@ router.put("/workouts/:id", ({ params, body }, res) => {
 
 router.post("/workouts", ({ body }, res) => {
     console.log(body);
-    db.Workout.create({})
+    db.Workout.create(body)
         .then(dbWorkout => {
             res.json(dbWorkout);
         })
         .catch(err => {
-            res.json(err);
+        return; 
+        // res.json(err);
+        // console.log("Error POST /workouts", err);
+        
         });
 
     res.send('Got a POST request')
