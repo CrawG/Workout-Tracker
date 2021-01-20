@@ -24,7 +24,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/UNC-Bootcamp", 
 });
 
 // routes
-// app.use(require("./public/api.js"));
 app.use("/api", require("./routes/api-routes.js"));
 app.use("/", require("./routes/html-routes.js"));
 
