@@ -4,9 +4,9 @@ Bootcamp Week 17 Homework - Workout Tracker with MongoDB
 ## Description
 An app that will allow you to track your workouts and view your progress via the interactive dashboard, in order to achieve your fitness goals.
     
-![Screenshot 1]() 
+![Screenshot 1](https://github.com/CrawG/Workout-Tracker/blob/main/public/assets/images/Screen%20Shot%202021-01-19%20at%209.24.19%20PM.png) 
 
-![Screenshot 2]() 
+![Screenshot 2](https://github.com/CrawG/Workout-Tracker/blob/main/public/assets/images/Screen%20Shot%202021-01-19%20at%209.34.11%20PM.png) 
 
     
 ## Table of Contents
