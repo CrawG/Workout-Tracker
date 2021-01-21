@@ -3,6 +3,9 @@ Bootcamp Week 17 Homework - Workout Tracker with MongoDB
 
 ## Description
 An app that will allow you to track your workouts and view your progress via the interactive dashboard, in order to achieve your fitness goals.
+
+### Deployed application: 
+https://quiet-basin-54918.herokuapp.com/
   
 ![Screenshot 1](https://github.com/CrawG/Workout-Tracker/blob/main/public/assets/images/Screen%20Shot%202021-01-19%20at%209.24.19%20PM.png) 
 
@@ -23,8 +26,7 @@ An app that will allow you to track your workouts and view your progress via the
     
 ## Usage 
 ### To run application locally, run:
-   npm start
-  
+    npm start  
     
 ## Database
 ### To seed database, run:
